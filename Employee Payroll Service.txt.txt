@@ -1,0 +1,47 @@
+Microsoft Windows [Version 10.0.22621.1778]
+(c) Microsoft Corporation. All rights reserved.
+
+CUsersiyoge cd CProgram FilesMySQLMySQL Server 8.0bin
+
+CProgram FilesMySQLMySQL Server 8.0binmysql -u root -p
+Enter password 
+Welcome to the MySQL monitor.  Commands end with ; or g.
+Your MySQL connection id is 106
+Server version 5.7.41-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2023, Oracle andor its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation andor its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or 'h' for help. Type 'c' to clear the current input statement.
+
+===========================================================
+#Welcome to Employee Payroll Service Program
+===========================================================
+
+mysql show databases;
++------------------------+
+ Database               
++------------------------+
+ information_schema     
+ addressbook_backend    
+ addressbook_springboot 
+ books                  
+ bookstore_backend      
+ customers              
+ employee_payroll_app   
+ mysql                  
+ payroll_service_spring 
+ performance_schema     
+ student_records        
+ sys                    
+ votingappfinal         
+ votingappsecond        
+ votingdata             
+ votingspringboot       
++------------------------+
+16 rows in set (0.01 sec)
+
+mysql
