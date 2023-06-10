@@ -44,4 +44,41 @@ mysql show databases;
 +------------------------+
 16 rows in set (0.01 sec)
 
-mysql
+mysql> create database employee_Payroll_With_ER_Diagram;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> show databases;
++----------------------------------+
+| Database                         |
++----------------------------------+
+| information_schema               |
+| addressbook_backend              |
+| addressbook_springboot           |
+| books                            |
+| bookstore_backend                |
+| customers                        |
+| employee_payroll_app             |
+| employee_payroll_with_er_diagram |
+| mysql                            |
+| payroll_service_spring           |
+| performance_schema               |
+| student_records                  |
+| sys                              |
+| votingappfinal                   |
+| votingappsecond                  |
+| votingdata                       |
+| votingspringboot                 |
++----------------------------------+
+17 rows in set (0.00 sec)
+
+mysql> use employee_payroll_with_er_diagram
+Database changed
+mysql> select database();
++----------------------------------+
+| database()                       |
++----------------------------------+
+| employee_payroll_with_er_diagram |
++----------------------------------+
+1 row in set (0.00 sec)
+
+mysql>
